@@ -15,7 +15,7 @@ const Header = () => {
       {/* Name and Title */}
       <div className="text-center mb-12">
         <h1 className="text-5xl font-bold text-gray-900 mb-4">
-          Hello! I'm  Nehemiah Onyango
+          Hello! I'm Jesse Nehemiah Onyango
         </h1>
         <p className="text-xl text-gray-700 mb-8">
           A Software Engineer/Full stack developer  based in Kiambu Kenya
@@ -25,7 +25,10 @@ const Header = () => {
      
       <div className="flex space-x-4 py-12 mb-12">
         <button className="px-8 py-3 text-black border border-black rounded-full text-lg shadow-md hover:bg-gray-100 transition-colors">
+         
+          <a href='https://drive.google.com/file/d/1n-SfQfHSGV33flepfzvyNSPSUnUefZ62/view?usp=sharing'>
           See my CV
+          </a>
         </button>
       </div>
       

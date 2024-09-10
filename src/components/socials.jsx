@@ -1,12 +1,13 @@
 // src/components/SocialMediaLinks.jsx
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const socialLinks = [
-  { href: 'https://facebook.com/', icon: faFacebookF },
+  { href: 'https://web.facebook.com/profile.php?id=100089091364174', icon: faFacebookF },
   { href: 'https://twitter.com/itsjessenesh', icon: faTwitter },
   { href: 'https://instagram.com/itsjesse.nehemiah', icon: faInstagram },
   { href: 'https://www.linkedin.com/in/nehemiah-onyango/', icon: faLinkedin },
+  { href: 'https://github.com/NeshJesse/',icon: faGithub },
 ];
 
 const SocialMediaLinks = () => {
